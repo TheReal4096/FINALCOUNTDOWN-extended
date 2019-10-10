@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="10" class="timer__button">10 seconds (test)</button>
+      <button data-time="12" class="timer__button">12 seconds</button>
+      <button data-time="15" class="timer__button">15 seconds</button>
+      <button data-time="20" class="timer__button">20 seconds</button>
+      <button data-time="25" class="timer__button">25 seconds</button>
+      <button data-time="30" class="timer__button">30 seconds</button>
+      <button data-time="45" class="timer__button">45 seconds</button>
+      <button data-time="60" class="timer__button">60 seconds</button>
+      <button data-time="90" class="timer__button">90 seconds</button>
+      <button data-time="100" class="timer__button">100 seconds</button>
+      <button data-time="120" class="timer__button">2 minutes</button>
+      <button data-time="180" class="timer__button">3 minutes</button>
+      <button data-time="300" class="timer__button">5 minutes</button>
+      <button data-time="600" class="timer__button">10 minutes</button>
+      <button data-time="900" class="timer__button">15 minutes</button>
+      <button data-time="1200" class="timer__button">20 minutes</button>
+      <button data-time="1800" class="timer__button">30 minutes</button>
+      <button data-time="2700" class="timer__button">45 minutes</button>
+      <button data-time="3600" class="timer__button">1 hour</button>
+      <button data-time="7200" class="timer__button">2 hours</button>
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="Enter Minutes">
+      </form>
+    </div>
+    <div class="display">
+      <h1 class="display__time-left"></h1>
+      <p class="display__end-time"></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
